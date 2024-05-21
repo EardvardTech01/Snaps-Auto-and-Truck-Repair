@@ -28,9 +28,9 @@ html {
     position: relative;
     float: left;
     background-color: black;
-    padding-right: 1413.69px;
     padding-top: 15.6px;
     padding-bottom: 16px;
+    width: 100%;
 }
 
 /* header */
@@ -72,6 +72,7 @@ html {
 /* left */
 .LeftHeader {
     float: left;
+    border-right: solid;
     margin-left: 3px;
     border-top: solid;
     border-color: red;
@@ -105,11 +106,10 @@ html {
 
 /* right */
 .RightHeader {
-    border-left: solid;
     position: relative;
     float: right;
     background-color: black;
-    width: 79.4%;
+    width: 79.29%;
     border-top: solid;
     border-color: red;
 }
