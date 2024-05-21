@@ -1,0 +1,241 @@
+/* top */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    height: 100%;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.Home {
+    text-decoration: none;
+    background-color: black;
+    color: goldenrod;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.Home:hover {
+    background: linear-gradient(to bottom,black 0%, black 33%, black 66%, black 82%, red 100%);
+}
+
+.Menu {
+    position: relative;
+    float: left;
+    background-color: black;
+    padding-right: 1413.69px;
+    padding-top: 15.6px;
+    padding-bottom: 16px;
+}
+
+/* header */
+.slider-container {
+    position: relative;
+    width: 38.78%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.Slider {
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+
+#prevBtn{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    left: 5%;
+    font-size: 30px;
+    color: white;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+#nextBtn{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    right: 5%;
+    font-size: 30px;
+    color: white;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+/* left */
+.LeftHeader {
+    float: left;
+    margin-left: 3px;
+    border-top: solid;
+    border-color: red;
+    padding-right: 5px;
+    width: 20%;
+}
+
+.LeftHeader .Terms a{
+    color: red;
+    text-decoration: underline;
+}
+
+.LeftHeader .links a{
+    text-decoration: none;
+    color: goldenrod;
+}
+
+.LeftHeader .links a:hover{
+    color: goldenrod;
+}
+
+.LeftHeader h4{
+    color: white;
+}
+
+.LeftHeader p{
+    word-wrap: break-word;
+    color: white;
+    overflow: hidden;
+}
+
+/* right */
+.RightHeader {
+    border-left: solid;
+    position: relative;
+    float: right;
+    background-color: black;
+    width: 79.4%;
+    border-top: solid;
+    border-color: red;
+}
+
+.RightHeader h1{
+    color: blue;
+    text-align: center;
+}
+
+.RightHeader h2{
+    color: blue;
+    text-align: center;
+}
+.RightHeader h3{
+    color: darkgray;
+    text-align: center;
+}
+.RightHeader h4{
+    color: darkgray;
+    text-align: center;
+}
+.RightHeader h5{
+    color: darkgray;
+    text-align: center;
+}
+
+.RightHeader h6{
+    color: darkgray;
+    text-align: center;
+}
+
+.RightHeader .other{
+    border-top: solid;
+    padding-top:20px;
+    word-wrap: break-word;
+    color: red;
+    text-align: center;
+}
+
+.RightHeader p{
+    word-wrap: break-word;
+    color: red;
+    text-align: center;
+}
+
+.RightHeader .box{
+    background-color: rgb(65, 65, 65);
+    padding: 20px;
+    text-align: center;
+}
+
+.list li {
+    width: 100%;
+    padding-top:5px;
+    word-wrap: break-word;
+    color: goldenrod;
+    text-align: center;
+}
+
+.list li a {
+    color: goldenrod;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.RightHeader .Email a{
+    width: 100px;
+    background-color: darkblue;
+    color: white;
+    text-decoration:solid;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.RightHeader .EmailSubmit {
+    box-shadow: none;
+    border-width: 3px;
+    background-color: black;
+    color: darkgray;
+    border-color: darkgray;
+    font-size: 40px;
+}
+
+.RightHeader .Emailbtn {
+    background-color: darkblue;
+    color: white;
+    border-radius: 10px;
+    font-size: large;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.RightHeader .Address {
+    margin: 0px;
+}
+
+/* bottom */
+.bottom {
+    position: relative;
+    border-top: solid;
+    vertical-align: bottom;
+    border-color: red;
+    height: 100px;
+    margin-top: -100px;
+    clear: both;
+}
+
+.Social{
+    text-align: center;
+    color: goldenrod;
+}
+
+.Social a{
+    color: darkgray;
+    text-decoration: none;
+}
+
+.Social a:hover{
+    color: white;
+}
+
+.Copyright{
+    text-align: center;
+    color: red;
+}
+
+.Copyright a{
+    color: goldenrod;
+}
